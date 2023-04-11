@@ -1,1 +1,1 @@
-# Algoritmos - week-#1
+# this section has the exercises about the algorithms related

@@ -1,9 +1,9 @@
-# CHALLENGES FROM WEEK # 1
+# CHALLENGES FROM WEEK # 1 - Wednesday & Thursday
 
 ## Index
 - [Let's Make Pizza](#1-lets-make-pizza)
 - [Hot'N Cold](#2-hotn-cold)
-
+- [Geometry](#3-geometry)
 
 ## 1. Let's Make Pizza
  1. find the ingredients
@@ -55,6 +55,42 @@
 
         Where F is the temperature in Fahrenheit and C is the temperature in Celsius.
 
+## 3. Geometry
+- Select the figure to calculate the Volume
+    - If Select Volume of a Pyramid the Algorithm is:
+
+        - Enter the weight of the base of pyramid as 'weight'
+        - Enter the width of the pyramid as 'width'
+        - Enter the Height of the pyramid 'h'
+        - Multiply the weight by the width of the pyramid to determine the base area 'B'
+        -  Multiply the base area by the height of the pyramid.
+        - Divide the result by 3 to get the volume 'VPyramid'.
+        The formula can be expressed as:
+
+            V = (B * h) / 3
+
+                
+        - Print Volume as 'Volume Pyramid'
+
+    - If select volume of a Cube the Algorithm is :
+        - Measure the length of one side of the cube as 's'
+        - Cube the length to get the volume as 'Vcube'
+            The formula can be expressed as:
+
+            V = s^3
+
+        - Print 'Vcube'
+
+    - If select volume of a Sphere the Algorithm is:
+
+        - Measure the radius of the sphere as 'r'
+        - Cube the radius and multiply it by π as 'pi' 
+        - Multiply the result by 4/3 to get the volume as 'Vsphere'.
+            The formula can be expressed as:
+
+            V = (4/3) * π * r^3
+
+        - Print Volume 'Vsphere'
 
 
 

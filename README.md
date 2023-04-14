@@ -2,5 +2,5 @@
 
 ## Challenges
 
-- Week # 1 : [Algorithms](/Challenge%20week%20%231/1)
+- Week # 1 : [Algorithms](./Challenge%20week%20%231/README.MD)
 

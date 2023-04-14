@@ -5,6 +5,7 @@
 - [Hot'N Cold](#2-hotn-cold)
 - [Geometry](#3-geometry)
 
+#
 ## 1. Let's Make Pizza
  1. find the ingredients
     - 1 cup of flour
@@ -37,7 +38,7 @@
     - cut the pizza into triangle pieces
     - put on a plate with your favorite beverage
     - you can add some olive oil to extra flavor during your meal.
-
+#
 ## 2. Hot'N Cold
 - Fahrenheit to Celsius Algorithm:
     - Subtract 32 from the Fahrenheit temperature.
@@ -54,6 +55,8 @@
         F = (C * 9/5) + 32
 
         Where F is the temperature in Fahrenheit and C is the temperature in Celsius.
+
+#
 
 ## 3. Geometry
 - Select the figure to calculate the Volume
@@ -92,3 +95,18 @@
 
         - Print Volume 'Vsphere'
 
+
+# 
+
+## Numbers
+
+- Check if the number is even or odd:
+- Divide the number by 2.
+- If the remainder is 0, the number is even.
+- If the remainder is not 0, the number is odd.
+- Print the result:
+    - If the number is even, print "The number is even."
+    - If the number is odd, print "The number is odd."
+- Flowchart
+
+    ![image](4100-Convert_Fahrenheit_and_Celsius_and_3_more_pages_-_.png)

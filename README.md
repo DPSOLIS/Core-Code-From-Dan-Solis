@@ -1,6 +1,6 @@
-# In this document you will find all the exercises for each week
+# In this document you will find all the challenges for each week
 
-## Technologies
+## Challenges
 
-- Week 1 : [Algorithms](Challenge week #1)
+- Week # 1 : [Algorithms](/Challenge%20week%20%231/1)
 

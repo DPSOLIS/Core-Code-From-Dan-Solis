@@ -2,6 +2,7 @@
 
 ## Index
 - [Let's Make Pizza](#1-lets-make-pizza)
+- [Hot'N Cold](#2-hotn-cold)
 
 
 ## 1. Let's Make Pizza
@@ -36,3 +37,26 @@
     - cut the pizza into triangle pieces
     - put on a plate with your favorite beverage
     - you can add some olive oil to extra flavor during your meal.
+
+## 2. Hot'N Cold
+- Fahrenheit to Celsius Algorithm:
+    - Subtract 32 from the Fahrenheit temperature.
+
+    - Multiply the result by 5/9 to get the temperature in Celsius.
+    The formula can be expressed as:
+    C = (F - 32) * 5/9 Where C is the temperature in Celsius and F is the temperature in Fahrenheit.
+
+- Celsius to Fahrenheit Algorithm:
+    - Multiply the Celsius temperature by 9/5.
+
+    - Add 32 to the result to get the temperature in Fahrenheit. The formula can be expressed as:
+    
+        F = (C * 9/5) + 32
+
+        Where F is the temperature in Fahrenheit and C is the temperature in Celsius.
+
+
+
+
+
+

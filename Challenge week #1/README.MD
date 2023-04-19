@@ -4,6 +4,9 @@
 - [Let's Make Pizza](#1-lets-make-pizza)
 - [Hot'N Cold](#2-hotn-cold)
 - [Geometry](#3-geometry)
+- [Numbers](#numbers)
+- [Date of Birth](#date-of-birth)
+
 
 #
 ## 1. Let's Make Pizza
@@ -110,3 +113,15 @@
 - Flowchart
 
     ![image](FlowchartNumbers.png)
+
+#
+
+## Date of birth
+
+The pseudocode for the date of birth calculation is
+
+1. Ask the user for their date of birth
+2. Get the current date
+3. Calculate the difference between the current date and the user's date of birth
+4. Convert the difference into years
+5. Print the age in years to the console

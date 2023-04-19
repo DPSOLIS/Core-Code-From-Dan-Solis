@@ -101,7 +101,7 @@
 
 # 
 
-## Numbers
+## 4. Numbers
 
 - Check if the number is even or odd:
 - Divide the number by 2.
@@ -116,7 +116,7 @@
 
 #
 
-## Date of birth
+## 5. Date of birth
 
 The pseudocode for the date of birth calculation is
 
@@ -125,3 +125,15 @@ The pseudocode for the date of birth calculation is
 3. Calculate the difference between the current date and the user's date of birth
 4. Convert the difference into years
 5. Print the age in years to the console
+
+#
+
+## 6. Treasure
+
+Solution:
+
+ 1. Let's assume that the left chest has a treasure in it. Then the message on the left chest, "The middle chest has a treasure," would be true. However, we know that all messages are lies, so this assumption leads to a contradiction. Therefore, we can eliminate the possibility that the left chest has a treasure.
+
+2. Next, let's assume that the middle chest has a treasure in it. Then the message on the middle chest, "All these chests have treasures in them," would be true. However, we already know that the left chest does not have a treasure, so this assumption also leads to a contradiction. Therefore, we can eliminate the possibility that the middle chest has a treasure.
+
+3. This leaves us with the right chest as the only possibility. The message on the right chest, "Only one of these chests has treasures," is true because we have already eliminated the other possibilities. Therefore, the right chest must have a treasure in it.

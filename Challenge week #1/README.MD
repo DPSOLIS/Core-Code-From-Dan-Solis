@@ -4,8 +4,9 @@
 - [Let's Make Pizza](#1-lets-make-pizza)
 - [Hot'N Cold](#2-hotn-cold)
 - [Geometry](#3-geometry)
-- [Numbers](#numbers)
-- [Date of Birth](#date-of-birth)
+- [Numbers](#4-numbers)
+- [Date of Birth](#5-date-of-birth)
+- [Treasure](#6-treasure)
 
 
 #

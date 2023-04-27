@@ -8,9 +8,9 @@
     - [1. Print My Name](#1-print-my-name)
     - [2. Print My Name & age](#2-print-my-name--age)
 - ### Week challenges (Wednesday)
-    - [1. Algorithm game]()
-    - [2. Mod]()
-    - [3. Register form]()
+    - [1. Algorithm game](#1-algorithm-game)
+    - [2. Mod](#2-mod)
+    - [3. Register form](#3-register-form)
 - ### Week challenges (Thursday)
     - [1. Truth Tables]()
     - [2. Boolean results]()
@@ -53,6 +53,7 @@ This leaves only Bob's statement, which says that 1 person studied math yesterda
 
 ![image](Cereal_Flowchart%20(1).jpg)
 
+#
 
 ## Week challenges (Tuesday)
 
@@ -69,3 +70,19 @@ This leaves only Bob's statement, which says that 1 person studied math yesterda
 - this the print in Pseint
 ![image](PrintName%26Age.png)
 
+#
+
+## Week challenges (Wednesday)
+
+## 1. Algorithm game
+
+![image](Level27.png)
+![image](Level27success.png)
+
+## 2. Mod
+
+![image](Mod.png)
+
+## 3. Register form
+
+![image](Form.png)

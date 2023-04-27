@@ -3,11 +3,10 @@
 ## Index
 - ### Week challenges (Monday)
     - [1. Logic Problem](#1-logic-problem)
-    - [2. Cereal Vs Milk]()
+    - [2. Cereal Vs Milk](#2-cereal-vs-milk)
 - ### Week challenges (Tuesday)
-    - [1. Install Psent]()
-    - [2. Print My Name]()
-    - [3. Print My Name & age]()
+    - [1. Print My Name](#1-print-my-name)
+    - [2. Print My Name & age](#2-print-my-name--age)
 - ### Week challenges (Wednesday)
     - [1. Algorithm game]()
     - [2. Mod]()
@@ -53,3 +52,20 @@ This leaves only Bob's statement, which says that 1 person studied math yesterda
 ### Flowchart
 
 ![image](Cereal_Flowchart%20(1).jpg)
+
+
+## Week challenges (Tuesday)
+
+## 1. Print My Name
+
+ - this the print in Pseint
+![image](PrintMyName.png)
+
+- The code
+    - [Print my Name Code](MyName.psc)
+
+## 2. Print my name & Age
+
+- this the print in Pseint
+![image](PrintName%26Age.png)
+

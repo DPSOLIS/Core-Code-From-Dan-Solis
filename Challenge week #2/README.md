@@ -2,7 +2,7 @@
 
 ## Index
 - ### Week challenges (Monday)
-    - [1. Logic Problem]()
+    - [1. Logic Problem](#1-logic-problem)
     - [2. Cereal Vs Milk]()
 - ### Week challenges (Tuesday)
     - [1. Install Psent]()
@@ -34,3 +34,22 @@ If Dan's statement were true, then 3 people studied math yesterday, which would 
 If Charlie's statement were true, then 2 people studied math yesterday, which would mean that Bob's and Alice's statements must both be false. This leaves Charlie, Dan, and Eva as possible truth-tellers. However, since we know that only one person studied math yesterday, Charlie's statement cannot be true.
 
 This leaves only Bob's statement, which says that 1 person studied math yesterday. This is consistent with our previous analysis, which showed that none of the other statements could be true. Therefore, Bob is the only one telling the truth.
+
+#
+
+## 2. Cereal Vs Milk
+
+
+### Pseudocode
+- Get a bowl
+- Pour desired amount of cereal into the bowl
+- Get a carton of milk
+- Open the milk carton
+- Pick up a milk jug
+- Pour desired amount of milk into the jug
+- Pour milk from the jug into the bowl of cereal
+- Enjoy!
+
+### Flowchart
+
+![image](Cereal_Flowchart%20(1).jpg)

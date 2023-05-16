@@ -62,6 +62,26 @@
 
 ## Week challenges (Tuesday)
 ### 1. Simple Calculator with Switch
+- The code made for Calculator is:
+![image](4249-PSeInt.png)
+
+### Outcome
+- addtion
+![image](4250-PSeInt_-_Ejecutando_proceso_SIMPLE_CALCULATOR.png)
+- subtraction
+![image](4251-PSeInt_-_Ejecutando_proceso_SIMPLE_CALCULATOR.png)
+- multiplication
+![image](4255-PSeInt_-_Ejecutando_proceso_SIMPLE_CALCULATOR.png)
+
+- Division
+![image](4252-PSeInt_-_Ejecutando_proceso_SIMPLE_CALCULATOR.png)
+- Expected errors
+    - the operation sign is not expected
+    ![image](4253-PSeInt_-_Ejecutando_proceso_SIMPLE_CALCULATOR.png)
+    - the number two entered is 0 in a division operatarion
+    ![image](4254-PSeInt_-_Ejecutando_proceso_SIMPLE_CALCULATOR.png)
+
+#
 ### 2. Multi option program
 
 #

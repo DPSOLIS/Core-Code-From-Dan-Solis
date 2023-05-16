@@ -44,11 +44,17 @@
  - The code for this program in Pseint is
 ![image](4241-PSeInt.png)
  - the messages expected are:
+
     - The number is special
+
     ![image](4243-PSeInt_-_Ejecutando_proceso_SPECIALNUMBER.png)
+
     - The number is almost special
+
     ![image](4244-PSeInt_-_Ejecutando_proceso_SPECIALNUMBER.png)
-    - Just a regular number 
+
+    - Just a regular number:
+
     ![image](4242-PSeInt_-_Ejecutando_proceso_SPECIALNUMBER.png)
 
 

@@ -87,21 +87,20 @@
 
 ![Image](4256-PSeInt.png)
 
-    - Option 1
+- Option 1
 ![Image](4257-PSeInt_-_Ejecutando_proceso_MULTIOPTION.png)
-    - Option 2
-        - day of the week
+- Option 2
+    - day of the week
         ![Image](4259-PSeInt_-_Ejecutando_proceso_MULTIOPTION.png)
-        - invalid day
+    - invalid day
         ![Image](4258-PSeInt_-_Ejecutando_proceso_MULTIOPTION.png)
 
-    - Option 3:
-    
+- Option 3:
     ![Image](4260-PSeInt_-_Ejecutando_proceso_MULTIOPTION.png)
-
-    - Invalid option
     
-    ![Image](4261-PSeInt_-_Ejecutando_proceso_MULTIOPTION.png)
+
+- Invalid option
+![Image](4261-PSeInt_-_Ejecutando_proceso_MULTIOPTION.png)
 
 
 

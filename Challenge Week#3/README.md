@@ -105,12 +105,20 @@
 
 
 #
+#
 
 ## Week challenges (Wednesday)
 
 ### 1. Multiplication tables
+- the code for the program
+![Image](4262-PSeInt.png)
+
+- the execution of the program
+![Image](4263-PSeInt_-_Ejecutando_proceso_MULTIPLICATIONTABLE.png)
+#
 ### 2. Simple calculator with Do While
 
+#
 #
 ## Week challenges (Thursday)
  ### 1. Multiplication tables with FOR

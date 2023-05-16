@@ -117,7 +117,11 @@
 ![Image](4263-PSeInt_-_Ejecutando_proceso_MULTIPLICATIONTABLE.png)
 #
 ### 2. Simple calculator with Do While
+- the code for the program
+![Image](4264-PSeInt.png)
 
+- the execution of the program
+![Image](4265-PSeInt_-_Ejecutando_proceso_SIMPLE_CALCULATOR.png)
 #
 #
 ## Week challenges (Thursday)

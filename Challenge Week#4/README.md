@@ -22,8 +22,45 @@
 ## Week challenges (Monday)
 
 ### 1. Average sales and commission
-#
+- Solution
+```javascript
 
+
+Algoritmo SalesCommission
+	
+    Definir numVentas Como Entero
+    Definir totalVentas, venta, comision Como Real
+    Definir promedioVentas Como Real
+	
+    // Leer el número de ventas del vendedor
+    Escribir "Ingrese el número de ventas realizadas:"
+    Leer numVentas
+	
+    totalVentas = 0
+	
+    // Leer el valor de cada venta y calcular el total de ventas
+    Para i<-1 Hasta numVentas Con Paso 1 Hacer
+        Escribir "Ingrese el valor de la venta ", i, ":"
+        Leer venta
+        totalVentas = totalVentas + venta
+    FinPara
+	
+    // Calcular el promedio de ventas
+    promedioVentas = totalVentas / numVentas
+	
+    // Determinar la comisión del vendedor
+    Si numVentas > 5 Entonces
+        comision = totalVentas * 0.15
+    Sino
+        comision = totalVentas * 0.10
+    FinSi
+	
+    // Mostrar los resultados
+    Escribir "El promedio de ventas es: ", promedioVentas
+    Escribir "La comisión del vendedor es: ", comision
+	
+FinAlgoritmo
+```
 ### 2. Even or Odd
 
 #

@@ -126,7 +126,27 @@
 #
 ## Week challenges (Thursday)
  ### 1. Multiplication tables with FOR
- ### 2. Ascending and descending numbers
- ### 3. Greetings
+ - the code for the program
+![Image](3861-PSeInt.png)
 
+- the execution of the program
+![Image](3862-PSeInt_-_Ejecutando_proceso_MULTIPLICATION_FOR.png)
+#
+ ### 2. Ascending and descending numbers
+ - the code for the program
+
+![Image](3863-PSeInt.png)
+
+- ascending execution
+![Image](3864-PSeInt_-_Ejecutando_proceso_PRINTNUMBERS.png)
+
+- descending execution
+![Image](3865-PSeInt_-_Ejecutando_proceso_PRINTNUMBERS.png)
+
+ ### 3. Greetings
+ - the code for the program
+![Image](3866-PSeInt.png)
+
+- the execution of the program
+![Image](3867-PSeInt_-_Ejecutando_proceso_GREETINGPROGRAM.png)
 #

@@ -64,7 +64,8 @@ FinAlgoritmo
 
 - Run program
 
-![Image](.)
+![image](/Challenge%20Week%234/Images/3869-PSeInt_-_Ejecutando_proceso_SALESCOMMISSION.png)
+
 #
 
 ### 2. Even or Odd

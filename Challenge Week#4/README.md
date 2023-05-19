@@ -61,6 +61,12 @@ Algoritmo SalesCommission
 	
 FinAlgoritmo
 ```
+
+- Run program
+
+![Image](.)
+#
+
 ### 2. Even or Odd
 
 #

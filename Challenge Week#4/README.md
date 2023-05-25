@@ -5,9 +5,8 @@
     - [1. Average sales and commission](#1-average-sales-and-commission)
     - [2. Even or Odd](#2-even-or-odd)
 - ### Week challenges (Tuesday)
-    - [1. Predefined functions](#1-predefined-functions)
-    - [2. Full name](#2-full-name)
-    - [3. Throw dice](#3-throw-dice)
+    - [1. Full name](#1-full-name)
+    - [2. Throw dice](#2-throw-dice)
 - ### Week challenges (Wednesday)
     - [1. Distance to zero](#1-distance-to-zero)
     - [2. Toss coin](#2-toss-coin)
@@ -69,21 +68,98 @@ FinAlgoritmo
 #
 
 ### 2. Even or Odd
+- Solution:
+```java
+Algoritmo NumberDisplay
+	
+    Definir numero Como Entero
+	
+    // Leer el número del usuario y validar
+    Repetir
+        Escribir "Ingrese un número entre 1 y 50:"
+        Leer numero
+		
+        Si numero < 1 & numero > 50 Entonces
+            Escribir "Error: El número debe estar entre 1 y 50. Inténtelo nuevamente."
+        FinSi
+		
+    Hasta Que numero >= 1 & numero <= 50
+	
+    Escribir "Los números son:"
+	
+    // Mostrar los números según si son pares o impares
+    Si numero % 2 = 0 Entonces
+        Para i <- 2 Hasta numero Con Paso 2 Hacer
+            Escribir i
+        FinPara
+    Sino
+        Para i <- 1 Hasta numero Con Paso 2 Hacer
+            Escribir i
+        FinPara
+    FinSi
+	
+FinAlgoritmo
+```
+- Run program
+![image](/Challenge%20Week%234/Images/3878-PSeInt_-_Ejecutando_proceso_NUMBERDISPLAY.png)
 
 #
 
 ## Week challenges (Tuesday)
-### 1. Predefined functions
+
+### 1. Full name
+- Solution 
+```Javascript
+Algoritmo CapitalizeName
+	
+    Definir nombre, apellido, nombreCompleto, primerLetraNombre, primerLetraApellido Como Cadena
+    Definir restoNombre, restoApellido Como Cadena
+    Definir longitudNombre, longitudApellido Como Entero
+	
+    // Leer el nombre y el apellido
+    Escribir "Ingrese su nombre:"
+    Leer nombre
+    Escribir "Ingrese su apellido:"
+    Leer apellido
+	
+    // Obtener la primera letra y el resto del nombre
+    primerLetraNombre = Mayusculas(subcadena(nombre, 0, 0))
+    restoNombre = Minusculas(subcadena(nombre, 1, Longitud(nombre)-1))
+	
+    // Obtener la primera letra y el resto del apellido
+    primerLetraApellido = Mayusculas(subcadena(apellido, 0, 0))
+    restoApellido = Minusculas(subcadena(apellido, 1, Longitud(apellido)-1))
+	
+    // Construir el nombre completo capitalizado
+    nombreCompleto = primerLetraNombre + restoNombre + " " + primerLetraApellido + restoApellido
+	
+    // Mostrar el nombre completo capitalizado
+    Escribir "Nombre completo:", nombreCompleto
+	
+FinAlgoritmo
+```
+- Run Program
+![image](/Challenge%20Week%234/Images/3879-PSeInt_-_Ejecutando_proceso_CAPITALIZENAME.png)
 #
-### 2. Full name
-#
-### 3. Throw dice
+### 2. Throw dice
+- solution 
+```javascript
+
+```
 #
 ## Week challenges (Wednesday)
 
 ### 1. Distance to zero
+- Solution 
+```javascript
+
+```
 #
 ### 2. Toss coin
+- solution
+```javascript
+
+```
 
 #
 #

@@ -139,27 +139,157 @@ Algoritmo CapitalizeName
 FinAlgoritmo
 ```
 - Run Program
+
 ![image](/Challenge%20Week%234/Images/3879-PSeInt_-_Ejecutando_proceso_CAPITALIZENAME.png)
+
 #
 ### 2. Throw dice
 - solution 
 ```javascript
-
+Algoritmo Dados
+	Definir dado1, dado2 Como Entero
+// Simular el lanzamiento de los dados 10 veces
+Para i = 1 Hasta 10 Hacer
+	// Lanzar los dados	
+	dado1 = Aleatorio(1,6)
+	dado2 = Aleatorio(1,6)
+	
+	
+	
+	// Comprobar si los valores de los dados son iguales y agregar el mensaje correspondiente
+	Si dado1 = dado2 Entonces
+		Imprimir dado1, " ",  dado2, " - Los dados son iguales"
+	SiNo
+		Imprimir  dado1, " ", dado2
+	FinSi
+	
+	// Ir a la siguiente línea para el siguiente lanzamiento
+	Escribir ""
+	
+FinPara
+FinAlgoritmo
 ```
+- Run Program
+
+![image](/Challenge%20Week%234/Images/3880-PSeInt_-_Ejecutando_proceso_DADOS.png)
+
 #
 ## Week challenges (Wednesday)
 
 ### 1. Distance to zero
 - Solution 
 ```javascript
-
+Algoritmo FurthestFromZero
+	
+    Definir valor1, valor2, valor3, valor4, valor5, maxValor, maxValorEntero Como Real
+	
+    // Leer los 5 valores
+    Escribir "Ingrese el valor 1:"
+    Leer valor1
+    Escribir "Ingrese el valor 2:"
+    Leer valor2
+    Escribir "Ingrese el valor 3:"
+    Leer valor3
+    Escribir "Ingrese el valor 4:"
+    Leer valor4
+    Escribir "Ingrese el valor 5:"
+    Leer valor5
+	
+    // Calcular el valor absoluto de cada número
+    valor1 <- Abs(valor1)
+    valor2 <- Abs(valor2)
+    valor3 <- Abs(valor3)
+    valor4 <- Abs(valor4)
+    valor5 <- Abs(valor5)
+	
+    // Encontrar el valor máximo
+    maxValor <- valor1
+	
+    Si valor2 > maxValor Entonces
+        maxValor <- valor2
+    FinSi
+	
+    Si valor3 > maxValor Entonces
+        maxValor <- valor3
+    FinSi
+	
+    Si valor4 > maxValor Entonces
+        maxValor <- valor4
+    FinSi
+	
+    Si valor5 > maxValor Entonces
+        maxValor <- valor5
+    FinSi
+	
+    // Obtener la parte entera del número máximo
+    maxValorEntero <- abs(maxValor)
+	
+    // Mostrar el número entero más lejano a cero
+    Escribir "El número entero más lejano a cero es:", maxValorEntero
+	
+FinAlgoritmo
 ```
+- Run program
+
+![image](/Challenge%20Week%234/Images/3881-PSeInt_-_Ejecutando_proceso_FURTHESTFROMZERO.png)
+
+
 #
+
 ### 2. Toss coin
 - solution
-```javascript
 
+```javascript
+Algoritmo CoinFlipGame
+	
+    Definir nombre1, nombre2 Como Cadena
+    Definir valor1, valor2, resultadoAleatorio Como Real
+	
+    // Leer el nombre y valor del primer jugador
+    Escribir "Ingrese el nombre del primer jugador:"
+    Leer nombre1
+    Escribir "Ingrese el valor del primer jugador:"
+    Leer valor1
+	
+    // Leer el nombre y valor del segundo jugador
+    Escribir "Ingrese el nombre del segundo jugador:"
+    Leer nombre2
+    Escribir "Ingrese el valor del segundo jugador:"
+    Leer valor2
+	
+    // Verificar si alguno de los jugadores colocó un valor no válido
+    Si valor1 <= 0 Entonces
+        Escribir "El primer jugador ha colocado un valor no válido. ¡El segundo jugador gana!"
+    Sino 
+		Si valor2 <= 0 Entonces
+			Escribir "El segundo jugador ha colocado un valor no válido. ¡El primer jugador gana!"
+		Sino
+			// Simular el lanzamiento de la moneda
+			resultadoAleatorio = Aleatorio(valor1,valor2)
+			
+			// Verificar el resultado del lanzamiento de la moneda
+			Si resultadoAleatorio >= 0.5 Entonces
+				Escribir "¡", Mayusculas(nombre1), " gana con un valor de ", valor1, "!"
+			Sino
+				Escribir "¡", Mayusculas(nombre2), " gana con un valor de ", valor2, "!"
+			FinSi
+		FinSi
+	FinSi
+	
+FinAlgoritmo
 ```
+- run program Player 1 wins when the second player enter a negative number
+
+![image](/Challenge%20Week%234/Images/3882-PSeInt_-_Ejecutando_proceso_COINFLIPGAME.png)
+
+- run program Player 2 wins when the first player enter a negative number
+
+![image](/Challenge%20Week%234/Images/3883-PSeInt_-_Ejecutando_proceso_COINFLIPGAME.png)
+
+- run program when the program select the random winner
+
+![image](/Challenge%20Week%234/Images/3884-PSeInt_-_Ejecutando_proceso_COINFLIPGAME.png)
+
 
 #
 #

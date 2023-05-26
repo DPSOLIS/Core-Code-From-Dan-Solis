@@ -12,9 +12,8 @@
     - [2. Toss coin](#2-toss-coin)
     
 - ### Week challenges (Thursday)
-    - [1. Structure of a function](#1-structure-of-a-function)
-    - [2. Total price](#2-total-price)
-    - [3. Reverse direction and size](#3-reverse-direction-and-size)
+    - [1. Total price](#1-total-price)
+    - [2. Reverse direction and size](#2-reverse-direction-and-size)
 
 #
 
@@ -234,7 +233,7 @@ FinAlgoritmo
 ![image](/Challenge%20Week%234/Images/3881-PSeInt_-_Ejecutando_proceso_FURTHESTFROMZERO.png)
 
 
-#
+
 
 ### 2. Toss coin
 - solution
@@ -292,13 +291,65 @@ FinAlgoritmo
 
 
 #
-#
+
 ## Week challenges (Thursday)
- ### 1. Structure of a function
+ 
+ ### 1. Total price
+- Solution
 
-#
- ### 2. Total price
+```javascript
+Funcion Valor <- TotalPrice(precio,IVA)
+	Definir Valor, precioConIVA Como Real
+	precioConIVA = precio * (1 + IVA / 100)
+	
+	Si precio > 3000 Entonces
+		Valor <- precioConIVA * 0.9
+	SiNo
+		Valor <- precioConIVA
+	FinSi
+	
+Fin Funcion
 
- ### 3. Reverse direction and size
+Algoritmo example_TotalPrice
+	
+	Imprimir TotalPrice(5000,21)
+FinAlgoritmo
+```
 
+- run program
+
+![image](/Challenge%20Week%234/Images/3913-PSeInt_-_Ejecutando_proceso_EXAMPLE_TOTALPRICE.png)
+
+ ### 2. Reverse direction and size
+
+- Solution
+
+```javascript
+Funcion textoRevertido <- ReverseDirectionAndSize(string)
+	Definir textoRevertido Como caracter;
+	textoRevertido = "";
+	
+	Para count = Longitud(string) Hasta 0 Con Paso -1 Hacer
+		reversetext = Subcadena(string,count,count);
+		Si reversetext = Mayusculas(reversetext) Entonces
+			reversetext = Minusculas(reversetext)
+		SiNo
+			reversetext = Mayusculas(reversetext)
+		FinSi
+		textoRevertido = Concatenar(textoRevertido,reversetext)
+	FinPara
+	
+	
+Fin Funcion
+
+Algoritmo example_ReverseDirectionAndSize
+	
+	Imprimir  ReverseDirectionAndSize("TExto Revertido")
+	
+FinAlgoritmo
+```
+
+- run program
+
+![image](/Challenge%20Week%234/Images/3914-PSeInt.png)
 #

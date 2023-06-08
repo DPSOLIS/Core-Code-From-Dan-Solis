@@ -5,8 +5,8 @@
     - [1. Time Converter](#1-time-converter)
     - [2. Compare distances](#2-compare-distances)
 - ### Week challenges (Tuesday)
-    - [1. Sum of pairs]()
-    - [2. Mid point]()
+    - [1. Sum of pairs](#1-sum-of-pairs)
+    - [2. Mid point](#2-mid-point)
 - ### Week challenges (Wednesday)
     - [1. Cashier]()
     - [2. Weather average]()
@@ -92,7 +92,7 @@ FinAlgoritmo
 #
 #
 
-## CHALLENGES (MONDAY)
+## CHALLENGES (TUESDAY)
 
 ### 1. Sum of Pairs
 
@@ -130,7 +130,7 @@ FinAlgoritmo
 
 #
 
-### 1. Mid point
+### 2. Mid point
 
 - Solution
 ```javascript
@@ -173,10 +173,99 @@ FinAlgoritmo
 
 #
 #
+
+## CHALLENGES (WEDENESDAY)
+
+### 1. Cashier
+
 - Solution
 
 ```javascript
+Funcion balance <- cashier()
+	Definir balance como Real
+	balance = 1000 
+	Repetir 
+		Imprimir "Choose an option ";
+		Imprimir "A. make a deposit ";
+		Imprimir "B. Make a withdraw.";
+		Imprimir "C. Exit the program";
+		leer option;
+		si option = "a" Entonces
+			balance = balance + deposit()
+		
+			
+		FinSi
+		
+		si option = "b" Entonces
+			balance = balance - Withdraw()
+		FinSi
+		
+	Mientras Que option = 'a' | option = 'b'
+	
+FinFuncion
+
+Funcion value <- deposit ()
+	Imprimir " How much do you want to deposit: " 
+	Leer value 
+	
+FinFuncion
+
+Funcion value <- Withdraw ()
+	Imprimir " How much do you want to withdraw: " 
+	Leer value 
+FinFuncion
+
+Algoritmo ExampleCahier
+		Imprimir cashier()
+FinAlgoritmo
+
 ```
 - Run Program
 
-![Image](/Challenge%20Week%20%235/Images/)
+![Image](/Challenge%20Week%20%235/Images/4247-PSeInt_-_Ejecutando_proceso_EXAMPLECAHIER.png)
+
+#
+
+### 1. Weather average
+
+- Solution
+
+```javascript
+Funcion celsius <- FarenheittoCelsius(Farenheit)
+	Definir celsius Como Real
+	celsius = (Farenheit - 32)/ 1.8;
+FinFuncion
+
+Algoritmo ExampleWeatherAverage
+	Count = 0
+	total = 0
+	
+	Repetir
+		Imprimir " Choose an option with the letter related: ";
+		Imprimir "a. Enter a degrees celsius";
+		Imprimir "b. Enter a degrees Farenheit";
+		Imprimir "c. exit the program";
+		Leer option ;
+		si option = "a" | option = "b" Entonces
+			count = count + 1;
+			leer degree;			
+		FinSi
+		
+		si option = "a" Entonces
+			total = total + degree;
+			
+		FinSi
+		
+		si option = "b" Entonces
+			total = total + FarenheittoCelsius(degree);
+			
+		FinSi
+	Mientras Que option = 'a' | option = 'b'	
+	
+	Imprimir total/count;
+FinAlgoritmo
+```
+- Run Program
+
+![Image](/Challenge%20Week%20%235/Images/4248-PSeInt_-_Ejecutando_proceso_EXAMPLEWEATHERAVERAGE.png)
+

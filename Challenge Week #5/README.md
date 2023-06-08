@@ -8,8 +8,8 @@
     - [1. Sum of pairs](#1-sum-of-pairs)
     - [2. Mid point](#2-mid-point)
 - ### Week challenges (Wednesday)
-    - [1. Cashier]()
-    - [2. Weather average]()
+    - [1. Cashier](#1-cashier)
+    - [2. Weather average](#2-weather-average)
 - ### Week challenges (Thursday)
     - [1. if]()
     - [2. While]()
@@ -226,7 +226,7 @@ FinAlgoritmo
 
 #
 
-### 1. Weather average
+### 2. Weather average
 
 - Solution
 
@@ -269,3 +269,48 @@ FinAlgoritmo
 
 ![Image](/Challenge%20Week%20%235/Images/4248-PSeInt_-_Ejecutando_proceso_EXAMPLEWEATHERAVERAGE.png)
 
+#
+#
+
+## CHALLENGES (Thursday)
+
+### 1. if 
+
+    - solution
+``` javascript
+let x = 10;
+
+if (x > 5) {
+  console.log("x is greater than 5");
+} else if (x === 5) {
+  console.log("x is equal to 5");
+} else {
+  console.log("x is less than 5");
+}
+```
+
+#
+### 2. While
+
+- solution
+``` javascript
+let count = 1;
+
+while (count <= 5) {
+  console.log("Count: " + count);
+  count++;
+}
+```
+
+#
+### 3. For
+- solution
+``` javascript
+for (let i = 1; i <= 5; i++) {
+  console.log("Count: " + i);
+}
+```
+
+
+#
+#

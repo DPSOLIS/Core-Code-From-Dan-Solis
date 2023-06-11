@@ -1,4 +1,4 @@
-# CHALLENGES FROM WEEK # 4 
+# CHALLENGES FROM WEEK # 5 
 
 ## Index
 - ### Week challenges (Monday)
@@ -11,9 +11,9 @@
     - [1. Cashier](#1-cashier)
     - [2. Weather average](#2-weather-average)
 - ### Week challenges (Thursday)
-    - [1. if]()
-    - [2. While]()
-    - [2. For]()
+    - [1. if](#1-if)
+    - [2. While](#2-while)
+    - [3. For](#3-for)
 
 #
 #

@@ -194,26 +194,157 @@ let result = echo('Greta');
 ## CHALLENGES (Thursday)
 
 ### 1. Strings
+
+- Exercise
+
+Write a function greet having one parameter and returning 'Hello <parameter>!'.
+
+Example: greet('Ada') should return 'Hello Ada!' and greet('Grace') should return 'Hello Grace!'.
+
 - Solution
 ```javascript
+function greet(name) {
+
+return 'Hello ' + name + '!';
+
+}
 ```
 
 ### 2. Strings: Lenght
+
+- Exercise
+
+Write a function length that takes a string and returns the number of characters of the string.
+
+Example: length('sun') should return 3.
+
 - Solution
 ```javascript
-```
 
+function length(input) {
+
+return input.length;
+}
+let result = length('sun');
+charNumber = length.length;
+```
+- Result 
+```javascript
+Reading your code successfully.
+
+length is a function.
+
+length has 1 parameter(s).
+
+length('sun') returns 3.
+
+length('Hello world!') returns 12.
+
+length('') returns 0.
+
+All tests passed!
+```
 ### 3. Strings: toUpperCase()
-- Solution
-```javascript
-```
 
+- Exercise
+
+Write a function toCase that takes a string and returns that string in lowercase and uppercase with - as delimiter.
+
+Example: toCase('Mthatha') should return 'mthatha-MTHATHA'.
+
+- Solution
+
+```javascript
+function toCase(input) {
+
+return input.toLowerCase() + '-' + input.toUpperCase();
+
+}
+```
+- Result
+```javascript
+Reading your code successfully.
+
+toCase is a function.
+
+toCase has 1 parameter(s).
+
+toCase('Mthatha') returns 'mthatha-MTHATHA'.
+
+toCase('Johannesburg') returns 'johannesburg-JOHANNESBURG'.
+
+All tests passed!
+```
 ### 4. Strings: charAt()
+
+- Exercise
+
+Write a function shortcut that takes two strings and returns the initial letters of theses strings.
+
+Example: shortcut('Amnesty', 'International') should return 'AI'.
+
 - Solution
 ```javascript
+function shortcut(one,two) {
+
+return one.charAt(0) + two.charAt(0);
+
+}
 ```
 
+- Result
+```javascript
+Reading your code successfully.
+
+shortcut is a function.
+
+shortcut has 2 parameter(s).
+
+shortcut('Amnesty', 'International') returns 'AI'.
+
+shortcut('Java', 'Script') returns 'JS'.
+
+All tests passed!
+```
 ### 5. Strings: indexOf()
+
+- Exercise
+
+Write a function indexOfIgnoreCase taking two strings and determining the first occurrence of the second string in the first string. The function should be case insensitive.
+
+Example: indexOfIgnoreCase('bit','it') and indexOfIgnoreCase('bit','IT') should return 1.
+
 - Solution
 ```javascript
+function indexOfIgnoreCase(one, two) {
+
+let onelower = one.toLowerCase();
+let twolower = two.toLowerCase();
+
+return onelower.indexOf(twolower);
+}
+
+```
+- Result
+
+```javascript
+Reading your code successfully.
+
+indexOfIgnoreCase is a function.
+
+indexOfIgnoreCase has 2 parameter(s).
+
+indexOfIgnoreCase('bit', 'it') returns 1.
+
+indexOfIgnoreCase('bit', 'IT') returns 1.
+
+indexOfIgnoreCase('BYTE', 'te') returns 2.
+
+indexOfIgnoreCase('BYTE', 'TE') returns 2.
+
+indexOfIgnoreCase('BiT', 'bIt') returns 0.
+
+indexOfIgnoreCase('bit', 'bt') returns -1.
+
+All tests passed!
 ```

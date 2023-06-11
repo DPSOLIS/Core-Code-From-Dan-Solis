@@ -98,8 +98,6 @@ let z = y;
 y = x;
 x = z;
 ```
-
-
 - Solution
 ```javascript
 'Hardy'
@@ -110,27 +108,84 @@ x = z;
 ## CHALLENGES (Wednesday)
 
 ### 2. Functions
+- Exercise
+
+Define a function hello that returns 
+```
+'Hello world!'.
+```
 - Solution
 ```javascript
+function hello() {
+
+return 'Hello world!';
+
+}
 ```
 ### 3. Multiple Functions
+- Exercise
+
+Define two functions. The first function a should return 'Hello a!' and the second function b should return 'Hello b!'.
+
 - Solution
 ```javascript
+function a() {
+ return 'Hello a!';
+}
+
+function b() {
+ return 'Hello b!';
+}
 ```
 
 ### 4. Functions Calls
+
+- Exercise
+
+1. Define a function greet returning the value 'Haydo!'.
+
+2. Declare a variable salutation. Call the function greet and assign the result of the call to the variable salutation.
+
 - Solution
+
 ```javascript
+function greet() {
+  return 'Haydo!';
+}
+
+let salutation = greet();
 ```
 
 ### 5. What is X? (Function version)
+
+- Exercise
+
+Which value does x have after execution of the following code?
+```javascript
+function reply(phrase) {
+  return phrase;
+}
+
+let x = reply('How do you do?');
+
+```
 - Solution
 ```javascript
+'How do you do?'
 ```
 
 ### 6. Parameters
+- Exercise
+
+Write a function echo that also returns the passed parameter. echo('Greta') should return 'Greta' and echo('CO2') should return 'CO2'
+
 - Solution
 ```javascript
+function echo(input) {
+  return input;
+}
+
+let result = echo('Greta');
 ```
 
 #
